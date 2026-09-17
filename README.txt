@@ -74,3 +74,8 @@ V10 SERPENTINE FIX
 - The plot tapped on the map determines the first range/column and which end is the starting end.
 - Subsequent ranges/columns alternate direction from that physical starting point.
 - Example: tapping R2 C1 yields R2 C1→C2→C3..., then the next range runs back the opposite direction.
+
+V11
+- Added default trait Comm.
+- Comm is alphanumeric text with a maximum of 15 characters.
+- Comm can be shown/hidden like the other traits and is included in XLSX export.
