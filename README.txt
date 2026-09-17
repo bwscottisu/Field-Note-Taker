@@ -68,3 +68,9 @@ V7
 - Take Notes header: Experiment bold, Range/Column larger bold, Name next, then Plot, Entry, Rep, ID.
 - Experiment outlines start thicker/bolder.
 - Completed plots keep experiment outline color and receive a light tint of that experiment color instead of a thicker completion outline.
+
+V8 ROUTE START FIX
+- Tapping a plot on the map now makes that plot the starting anchor for the active navigation route.
+- Serpentine navigation therefore starts from the physical plot the user selected rather than assuming Range 1 is the field start.
+- This fixes fields where borders or non-data ranges precede the first collection range.
+- The anchor works with experiment/rep filters and forward/reverse travel.
